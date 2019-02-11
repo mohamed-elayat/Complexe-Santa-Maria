@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<title> Réservations </title>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content = "width = device-width, initial scale = 1.0">
+	<link rel = "stylesheet" href = "devoir7.css">
+	<script src = "reservations.js"></script>
+</head>
+
+<body>
+
+	<div id = all>
+
+	<header>
+		<h1> Complexe Santa Maria </h1>	
+	</header>
+	
+
+	<nav>
+		<ul>
+			<li> <a href="Accueil.html"> Accueil</a> </li>
+			<li> <a href="Yourtes.html"> Yourtes</a> </li>
+			<li> <a href="y"> Activités</a> </li>
+			<li> <a href="Reservations.html"> Réservations</a> </li>	
+		</ul>	
+	</nav>
+	
+		
+	<main>
+	
+	<div id = mainContent>
+	
+		<h2 id = "titreNoImg"> Réservations au Complexe Santa Maria </h2>
+
+		<h3> Contactez nous </h3>	
+		
+		<p>Les informations obligatoires sont marquées d'un astérisque (*). </p>	
+
+		<form method = "post" action = "http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php" onsubmit="return validateForm()">
+		
+		
+			<label> * Prénom: </label>
+			<input type = "text" name="prénom" id = "monPrenom" pattern="[A-Za-z]{1,}" required>
+		
+			<label> * Nom: </label>
+			<input type="text" name="nom" id="monNom" pattern="[A-Za-z]{1,}" required>
+		
+			<label> * Email: </label>
+			<input type="email" name="email" id="monEmail" required>
+			
+			<label> Téléphone: </label>
+			<input type="tel" name="tel" id="monTel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			
+			<label> Date d'arrivée: </label>
+			<input type="date" name="date" id="maDate">
+			
+			<label> Nuits: </label>
+			<input type="text" name="nuits" id="mesNuits" pattern="[1-9]{1,}">
+			
+			<label> * Commentaires: </label>
+			<textarea name="commentaires" id="mesCommentaires" rows="2" cols="20" required></textarea>
+			
+			<input type="submit" id="mySubmit" value="Soumettre">
+					
+		</form>
+		
+	</div>
+	
+	<footer>
+		<i> <small>	
+			Copyright &copy; 2018 Complexe Santa Maria <br>
+			<a href="mailto:mohamed.elayat@umontreal.ca"> Mohamed@Elayat.com </a>		
+		</small></i>
+	</footer>
+	
+	</main>
+	
+	</div>
+	
+	<script src="reservations.js"></script>
+	
+</body>
+
+</html>
+
+<!-- Mohamed Elayat et Guilhem Robert-Apesteguy --> 

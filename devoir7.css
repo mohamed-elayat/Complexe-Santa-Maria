@@ -1,0 +1,284 @@
+
+html, body	{
+	
+	height: 100%;
+	
+}
+
+body	{	
+	font-family: Verdana, Arial, sans-serif;
+	color: #666666;	
+	background-image: url(images/background.jpg);
+	background-repeat: repeat-x;
+}
+
+
+#all	{
+	width: 80%; 
+	margin: 0 auto;
+	background-color: #90C7E3;
+	box-shadow: 2px 2px 5px 1px #000000;
+}
+
+
+header	{	
+	background-color: #000033;
+	color: #ffffff;
+	padding: 1px 15px;
+	background-image: url(images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}	
+
+
+nav 	{
+	padding: 5px 5px;
+	float: left;
+}		
+
+#largepics {	
+	width: 100%;
+}
+	
+
+main	{	
+	margin-left: 165px;
+	background-color: #ffffff;
+}
+
+#mainContent{
+	padding: 0em 2em 1em; 
+}
+
+table	{
+	
+	margin: 1.25em auto 0em;
+	width: 90%;
+	height: 200px;
+	border: 2px solid #90C7E3;
+	border-collapse: collapse;
+
+}
+
+td, th	{
+	
+	border: 2px solid #90C7E3;
+	padding: 0.25em;
+	text-align: center;
+	
+}
+
+td:nth-of-type(2){
+	
+	text-align: left;
+	
+}
+
+tr:nth-of-type(even){
+	
+	background-color: #f2f6ff;
+	
+}
+
+
+footer	{
+	text-align: center;
+	padding-bottom: 1em;
+}	
+		
+h1,h2,h3,h4,h5,h6{
+	font-family: Georgia, serif;
+}
+
+nav	a	{
+	text-decoration: none;
+	color: #000033;
+	font-weight: bold;
+}
+
+nav a:visited{
+	color: #800000;
+}
+
+nav a:hover{
+	color: #ffffff;
+}
+
+nav ul 	{
+	list-style-type: none;
+	padding-left: 1em;
+}
+
+dt		{
+	color: #000033;
+}
+					
+		
+.csm	{
+	color:#000033;
+	font-size: 1.25em; 
+}
+
+
+p		{	
+	margin:0;
+} 
+
+h2		{
+	color: #3399CC;
+}
+
+h3		{
+	color: #000033;
+	font-size: 1.3em;
+	font-family: Verdana, Georgia, serif;
+}
+
+#titreNoImg{
+	margin-top: 0;
+	padding-top: 1em;
+}
+
+form	{	
+	font-family: Arial, sans-serif;
+    padding: 10px;
+    min-width: 400px;
+	padding-left:0px;
+}
+
+label	{
+	float: left;
+	width: 130px;
+	text-align: left;
+	padding-right: 15px; 
+	margin-top: 10px;	
+}
+
+input,textarea{	
+	margin-top: 10px;
+	display: block; 
+}
+
+#mySubmit{	
+	margin-left: 120px;	
+}
+
+#mesNuits{	
+	width: 65px;	
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+		
+	nav 	{
+		padding: 0;
+		margin: 0;
+		float: none;
+	}	
+	
+	nav li  {	
+		padding: 0;
+		margin-left: 5px;
+		margin-right: 20px;
+		display: inline-block;
+	}
+	
+	nav ul		{
+		margin: 0.5em;
+	}
+	
+	main    {
+		margin-left:0;
+		box-shadow:  inset 15px 0px 30px -20px black;
+		height: 100%;
+		background-color: white;
+	}
+	
+	#all	{
+		width: 100%; 
+		box-shadow:  inset 15px 0px 30px -20px black;
+		height:100%
+	}
+	
+	body	{		
+		margin:0;
+		background-image: none;	
+	}
+
+}
+
+@media (max-width: 768px){
+	
+	nav 	{
+		float: none;
+		margin:0;
+		padding:0;
+	}
+	
+	nav ul 	{
+		margin:0;
+		padding:0;
+	}
+	
+	img		{
+		width:0;
+		height:0;
+		margin:0;
+		padding:0;
+	}
+	
+	nav li	{
+		font-size: 1.5em;
+		padding: 3px;
+		margin-bottom: 0;
+		border-bottom: solid 1px black;
+	}
+	
+	nav ul	{
+		margin:0;
+		padding:0;
+	}
+	
+	main	{
+		margin-left: 0;
+		box-shadow:  inset 15px 0px 30px -20px black;
+		height: 100%;
+		background-color: white;
+	}
+	
+	nav a:visited{
+		color: #800000;
+	}
+	
+	#mainContent{
+		padding: 5px;
+	}
+	
+	h2		{
+		margin:0;
+		padding:0;
+	}
+	
+	#all	{
+		width: 100%; 
+		box-shadow:  inset 15px 0px 30px -20px black;
+		height: 100%;
+	
+	}
+	
+	body	{		
+		margin:0;
+		background-image: none;		
+	}
+	
+}
+
+
+
+
+
+					
+/* Mohamed Elayat et Guilhem Robert-Apesteguy */
+					
